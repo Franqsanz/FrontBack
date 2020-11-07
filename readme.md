@@ -1,14 +1,14 @@
 # FrontBack
 
-Mini CLI para instalar dependencias utilizadas diariamente con un solo comando. Para el Backend y proximamente en el Frontend.
+Mini CLI para instalar dependencias utilizadas diariamente con un solo comando. Para el Backend y próximamente para el Frontend.
 
-Inspirado por [Rafi993](https://github.com/Rafi993/frontend-dev) y [https://dev.to/nickytonline/stuff-i-always-set-up-for-frontend-work-56h2](https://dev.to/nickytonline/stuff-i-always-set-up-for-frontend-work-56h2)
+Inspiración y créditos totales a [Rafi993](https://github.com/Rafi993/frontend-dev) y [https://dev.to/nickytonline/stuff-i-always-set-up-for-frontend-work-56h2](https://dev.to/nickytonline/stuff-i-always-set-up-for-frontend-work-56h2).
 
 ## Instalación
+Debes instalar de forma global este CLI.
+
 ```sh
-$ npm install frontback --global
-# o
-$ npm i frontback -g
+$ npm i -g frontback
 ```
 
 ## Uso
@@ -30,6 +30,8 @@ Las dependencias que se instalan son las siguientes:
 * lint-staged
 * stylelint
 * stylelint-config-standard
+
+> A continuación las siguientes dependencias que se instalan son por qué mi configuración `eslint-config-franqsanz` los requiere.
 * eslint-config-airbnb-base
 * eslint-plugin-import
 * eslint-plugin-node
