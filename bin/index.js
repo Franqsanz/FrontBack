@@ -1,20 +1,19 @@
 #!/usr/bin/env node
-
 /* eslint-env node */
 
-// const chalk = require('chalk');
+const chalk = require('chalk');
 // const inquirer = require('inquirer');
-// const figlet = require('figlet');
+const figlet = require('figlet');
 const fs = require('fs');
 const childProcess = require('child_process');
 const path = require('path');
 
-// function banner(banner) {
-//   console.log(chalk.yellowBright(figlet.textSync(banner, {
-//     font: 'Doom',
-//     horizontalLayout: 'fitted'
-//   })));
-// }
+function banner(banner) {
+  console.log(chalk.yellowBright(figlet.textSync(banner, {
+    font: 'Doom',
+    horizontalLayout: 'fitted'
+  })));
+}
 
 // function queryParams() {
 //   const qs = [
@@ -31,10 +30,11 @@ const path = require('path');
 //   return inquirer.prompt(qs);
 // }
 
-// (async () => {
-//   banner('F r o n t  -  B a c k');
-//   await queryParams();
-// })();
+(async function () {
+  banner('Front Back');
+  // await queryParams();
+})();
+
 
 let yarn = false;
 
@@ -46,8 +46,10 @@ try {
   console.log('Unable to check for yarn.lock');
 }
 
+// stylelint stylelint-config-standard
+
 const packages =
-  'eslint prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged stylelint stylelint-config-standard eslint-config-airbnb-base eslint-plugin-import eslint-plugin-node eslint-config-franqsanz';
+  'eslint prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged eslint-config-airbnb-base eslint-plugin-import eslint-plugin-node eslint-config-franqsanz';
 
 // Install packages
 if (yarn) {

@@ -28,8 +28,8 @@ Las dependencias que se instalan son las siguientes:
 * eslint-plugin-prettier
 * husky
 * lint-staged
-* stylelint
-* stylelint-config-standard
+  <!-- * stylelint -->
+  <!-- * stylelint-config-standard -->
 
 > A continuación las siguientes dependencias que se instalan son por qué mi configuración `eslint-config-franqsanz` los requiere.
 * eslint-config-airbnb-base

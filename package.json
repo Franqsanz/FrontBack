@@ -6,10 +6,23 @@
   "scripts": {
     "start": "node bin/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "CLI",
+    "JavaScript",
+    "Tool",
+    "Backend"
+  ],
+  "author": "Franco Andrés Sánchez <franqsanz.dev@gmail.com>",
+  "license": "MIT",
   "bin": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Franqsanz/FrontBack.git"
+  },
+  "homepage": "https://github.com/Franqsanz/FrontBack#readme",
+  "bugs": {
+    "url": "https://github.com/Franqsanz/FrontBack/issues"
+  },
   "dependencies": {
     "@types/figlet": "^1.2.0",
     "chalk": "^4.1.0",
