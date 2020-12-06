@@ -5,20 +5,22 @@ Mini CLI para instalar dependencias utilizadas diariamente con un solo comando. 
 Inspiración y créditos totales a [Rafi993](https://github.com/Rafi993/frontend-dev) y [https://dev.to/nickytonline/stuff-i-always-set-up-for-frontend-work-56h2](https://dev.to/nickytonline/stuff-i-always-set-up-for-frontend-work-56h2).
 
 ## Instalación
-Debes instalar de forma global este CLI.
+Debe instalarse de forma global.
 
 ```sh
-$ npm i -g frontback
+npx frontback
+# o
+npm install -g frontback
 ```
 
 ## Uso
 Navegue hasta su proyecto y ejecute el siguiente comando:
 
 ```sh
-$ npx frontback
+npx frontback
 ```
 
-## ¿Qué dependencias instala este CLI?
+## ¿Qué dependencias se instalan?
 
 Las dependencias que se instalan son las siguientes:
 
