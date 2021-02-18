@@ -33,10 +33,12 @@ Las dependencias que se instalan son las siguientes:
   <!-- * stylelint -->
   <!-- * stylelint-config-standard -->
 
-> A continuación las siguientes dependencias que se instalan son por qué mi configuración `eslint-config-franqsanz` los requiere.
+> A continuación las siguientes dependencias que debes instalar son por qué mi configuración `eslint-config-franqsanz` los requiere.
 * `eslint-config-airbnb-base`
 * `eslint-plugin-import`
 * `eslint-plugin-node`
+* `eslint-plugin-html`
+* `babel-eslint`
 * `eslint-config-franqsanz`
 
 ## Archivos pre configurados
