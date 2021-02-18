@@ -1,6 +1,6 @@
 {
   "name": "frontback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mini CLI para instalar dependencias utilizados diariamente.",
   "main": "bin/index.js",
   "scripts": {
